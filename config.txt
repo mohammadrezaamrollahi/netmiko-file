@@ -1,0 +1,9 @@
+configure-terminal
+vlan 10
+vlan 20
+interface vlan 10
+ip address .....
+interface vlan 20
+ip address ...........
+do wr
+exit
